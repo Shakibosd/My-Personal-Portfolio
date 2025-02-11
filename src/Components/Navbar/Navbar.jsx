@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <header className="w-full">
-            <nav className="flex items-center justify-between max-w-[1144px] mx-auto text-white p-5 md:p-10">
+            <nav id="navbar" className="flex items-center justify-between max-w-[1144px] mx-auto text-white p-5 md:p-10">
                 {/* Logo */}
                 <div>
                     <a href="/">

@@ -16,11 +16,11 @@ const Footer = () => {
             ></div>
 
             {/* Footer Content */}
-            <div className="relative mx-auto max-w-[1144px] py-10 sm:gap-5 md:gap-48 grid md:grid-cols-3">
+            <div className="relative mx-auto max-w-full px-5 md:max-w-[1144px] py-10 sm:gap-5 md:gap-48 grid md:grid-cols-3">
                 <div className="flex flex-col items-center">
                     <h2 className="text-2xl font-bold">Programming</h2>
                     <ul className="mt-3 space-y-1 text-gray-200">
-                        <li className="text-gray-300 hover:text-white"><a className="underline" target="_blank" href="https://codeforces.com/profile/Shakibosd_02">CodeForces</a></li>
+                        <li className="text-gray-300 hover:text-white"><a className="underline" target="_blank" href="https://codeforces.com/profile/Shakibosd_02" rel="noopener noreferrer">CodeForces</a></li>
 
                         <li className="text-gray-300 hover:text-white"><a className="underline" target="_blank" href="https://www.hackerrank.com/profile/syednazmusshaki1">HackerRank</a></li>
 
@@ -62,9 +62,9 @@ const Footer = () => {
             </div>
 
             {/* Footer Bottom */}
-            <div className="text-center text-gray-200 pt-5">
+            <div className="text-center text-gray-200 p-10">
                 <p className="border-t border-gray-700 pt-5">&copy; {currentYear} I Have Developed.</p>
-                <a href="#home" className="absolute bottom-5 -right-full pr-20">
+                <a href="#navbar" className="absolute bottom-5 -right-full pr-20">    
                     <button className="text-white bg-blue-500 p-4 rounded-full shadow-lg hover:bg-blue-600 transition">
                         <FaArrowUp size={25} />
                     </button>

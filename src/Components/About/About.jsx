@@ -14,7 +14,7 @@ const About = () => {
                         {/* Text Section */}
                         <ul className="list-none space-y-6">
                             <li className="flex gap-3">
-                                <IoArrowForward size={30} className="mt-1" />
+                            <IoArrowForward size={30} className="mt-1" />
                                 <div className="max-w-full sm:max-w-md">
                                     <h1 className="text-lg md:text-2xl font-semibold">Frontend Developer</h1>
                                     <small className="text-gray-200">
