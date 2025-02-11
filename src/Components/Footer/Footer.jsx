@@ -3,7 +3,8 @@ import { FaArrowUp, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter, Fa
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer id="footer" className="w-full relative bg-gray-900 text-white py-10">
+        <footer id="footer" className="w-full relative bg-gray-900 text-white">
+
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-5"
@@ -15,7 +16,7 @@ const Footer = () => {
             ></div>
 
             {/* Footer Content */}
-            <div className="relative p-10 mx-auto max-w-[1450px] grid md:grid-cols-3">
+            <div className="relative mx-auto max-w-[1144px] py-10 sm:gap-5 md:gap-48 grid md:grid-cols-3">
                 <div className="flex flex-col items-center">
                     <h2 className="text-2xl font-bold">Programming</h2>
                     <ul className="mt-3 space-y-1 text-gray-200">
@@ -43,6 +44,7 @@ const Footer = () => {
                         <li><a href="#skills" className="hover:text-white">Skills</a></li>
                         <li><a href="#project" className="hover:text-white">Project</a></li>
                         <li><a href="#contact" className="hover:text-white">Contact</a></li>
+                        <li><a href="#language" className="hover:text-white">Language</a></li>
                     </ul>
                 </div>
 
@@ -60,9 +62,8 @@ const Footer = () => {
             </div>
 
             {/* Footer Bottom */}
-            <div className="text-center text-gray-200 mt-10 border-t border-gray-700 pt-4">
-                <br />
-                <p>&copy; {currentYear} I Have Developed.</p>
+            <div className="text-center text-gray-200 pt-5">
+                <p className="border-t border-gray-700 pt-5">&copy; {currentYear} I Have Developed.</p>
                 <a href="#home" className="absolute bottom-5 -right-full pr-20">
                     <button className="text-white bg-blue-500 p-4 rounded-full shadow-lg hover:bg-blue-600 transition">
                         <FaArrowUp size={25} />

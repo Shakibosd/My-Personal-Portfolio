@@ -30,16 +30,15 @@ const techLinks = {
     algorithm: "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
     postmen: "https://www.postman.com/"
 };
-// console.log(techLinks);
 
 const Experience = () => {
     return (
         <div id="skills" className="w-full">
             <h1 className="text-2xl md:text-4xl text-white font-bold text-center">Skills</h1>
-            <div id="Experience" className="max-w-[1144px] mx-auto p-10">
-                <div className="w-[100%] grid grid-cols-7 gap-5 p-1">
+            <div id="Experience" className="max-w-[1144px] mx-auto p-5 md:p-10">
+                <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-3 md:gap-5 p-1">
                     {/* HTML */}
-                    <a href={techLinks.html} target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-900 shadow-lg hover:bg-gray-800 flex justify-center items-center rounded-2xl">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-900 shadow-lg hover:bg-gray-800 flex justify-center items-center rounded-2xl">
                         <FaHtml5 color="#E34F26" size={50} />
                     </a>
                     {/* CSS */}

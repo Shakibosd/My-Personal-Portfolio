@@ -5,40 +5,31 @@ const Navbar = () => {
 
     return (
         <header className="w-full">
-            <nav className="flex flex-wrap md:justify-center max-w-[1144px] mx-auto md:items-center text-white p-10">
+            <nav className="flex items-center justify-between max-w-[1144px] mx-auto text-white p-5 md:p-10">
                 {/* Logo */}
-                <div className="w-[50%]">
+                <div>
                     <a href="/">
-                        <img className="w-[70px] h-[70px] rounded-full text-xl font-bold tracking-wide" src="/image/logos.png" alt="Logo" />
+                    <img className="w-[70px] h-[70px] rounded-full" src="./image/logos.png" alt="Your Website Logo" />
                     </a>
                 </div>
 
-                {/* Desktop Menu */}
-                <div className="w-[50%]">
-                    <ul className={`md:flex md:justify-end gap-6 font-semibold transition-all duration-300 
-                    ${isOpen ? "block bg-black p-4 rounded-xl bg-opacity-30 text-center" : "hidden md:flex"}`}>
-                        <li>
-                            <a href="#about" className="hover:text-gray-400">About</a>
-                        </li>
-                        <li>
-                            <a href="#skills" className="hover:text-gray-400">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#project" className="hover:text-gray-400">Project</a>
-                        </li>
-                        <li>
-                            <a href="#contact" className="hover:text-gray-400">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#footer" className="hover:text-gray-400">Footer</a>
-                        </li>
-                    </ul>
-                </div>
-
                 {/* Hamburger Menu Button for Mobile */}
-                <button className="md:hidden text-white text-2xl" onClick={() => setIsOpen(!isOpen)}>
+                <button
+                    className="md:hidden text-white text-3xl"
+                    onClick={() => setIsOpen(!isOpen)}
+                >
                     {isOpen ? "✖" : "☰"}
                 </button>
+
+                {/* Desktop & Mobile Menu */}
+                <ul className={`md:flex md:gap-6 font-semibold absolute md:static bg-black md:bg-transparent p-1 md:p-0 rounded-xl md:rounded-none bg-opacity-30 text-center md:text-left top-2 left-28 w-36 md:w-auto z-50 transition-all duration-300 
+                    ${isOpen ? "block" : "hidden md:flex"}`}>
+                    <li><a href="#about" className="hover:text-gray-400 block md:inline">About</a></li>
+                    <li><a href="#skills" className="hover:text-gray-400 block md:inline">Skills</a></li>
+                    <li><a href="#project" className="hover:text-gray-400 block md:inline">Project</a></li>
+                    <li><a href="#contact" className="hover:text-gray-400 block md:inline">Contact</a></li>
+                    <li><a href="#footer" className="hover:text-gray-400 block md:inline">Footer</a></li>
+                </ul>
             </nav>
         </header>
     );
