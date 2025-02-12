@@ -16,8 +16,8 @@ const Footer = () => {
             ></div>
 
             {/* Footer Content */}
-            <div className="relative mx-auto max-w-full px-5 md:max-w-[1144px] py-10 sm:gap-5 md:gap-48 grid md:grid-cols-3">
-                <div className="flex flex-col items-center">
+            <div className="relative mx-auto max-w-full px-5 md:max-w-[1144px] py-10 sm:gap-5 md:gap-60 grid md:grid-cols-3">
+                <div className="flex flex-col text-center">
                     <h2 className="text-2xl font-bold">Programming</h2>
                     <ul className="mt-3 space-y-1 text-gray-200">
                         <li className="text-gray-300 hover:text-white"><a className="underline" target="_blank" href="https://codeforces.com/profile/Shakibosd_02" rel="noopener noreferrer">CodeForces</a></li>
@@ -36,20 +36,19 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col text-center">
                     <h2 className="text-2xl font-bold">Quick Links</h2>
                     <ul className="mt-3 space-y-1 text-gray-200">
                         <li><a href="#home" className="hover:text-white">Home</a></li>
-                        <li><a href="#about" className="hover:text-white">About Us</a></li>
+                        <li><a href="#about" className="hover:text-white">About</a></li>
                         <li><a href="#skills" className="hover:text-white">Skills</a></li>
                         <li><a href="#project" className="hover:text-white">Project</a></li>
                         <li><a href="#contact" className="hover:text-white">Contact</a></li>
-                        <li><a href="#language" className="hover:text-white">Language</a></li>
                     </ul>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <h2 className="text-2xl font-bold">Other Contact</h2>
+                    <h2 className="text-2xl font-bold text-center">Other Contact</h2>
                     <div className="grid grid-cols-2 gap-10 mt-4">
                         <a href="https://www.facebook.com/syednazmusshakib.shakib" target="_blank"><FaFacebook className="text-4xl cursor-pointer hover:text-blue-500" /></a>
                         <a href="https://x.com/syed_shaki27278" target="_blank"><FaTwitter className="text-4xl cursor-pointer hover:text-blue-400" /></a>
