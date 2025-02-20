@@ -1,5 +1,4 @@
 import projectImg1 from '../../assets/image/screencapture-flower-seal-netlify-app-2025-02-10-14_04_35.png';
-import projectImg2 from '../../assets/image/screencapture-smarts-city-netlify-app-2025-02-10-14_04_08.png';
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -11,14 +10,14 @@ const projects = [
         frontend: "https://github.com/Shakibosd/drf_final_exam_frontEnd",
         backend: "https://github.com/Shakibosd/DRF-Final-Exam-BackEnd",
     },
-    {
-        image: projectImg2,
-        title: "Smart City",
-        main: "This is a smart city management website",
-        demoLink: "https://smarts-city.netlify.app/",
-        frontend: "https://github.com/Shakibosd/Smart-City-Management-System-FrontEnd",
-        backend: "https://github.com/Shakibosd/Shakibosd-Smart-City-Management-System-BackEnd",
-    },
+    // {
+    //     image: projectImg2,
+    //     title: "Smart City",
+    //     main: "This is a smart city management website",
+    //     demoLink: "https://smarts-city.netlify.app/",
+    //     frontend: "https://github.com/Shakibosd/Smart-City-Management-System-FrontEnd",
+    //     backend: "https://github.com/Shakibosd/Shakibosd-Smart-City-Management-System-BackEnd",
+    // },
 ];
 
 const Project = () => {
