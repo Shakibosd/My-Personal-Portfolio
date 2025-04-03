@@ -14,7 +14,7 @@ const Home = () => {
                     <p className="text-sm sm:text-lg md:text-xl tracking-tight mt-3 sm:mt-5">
                         I am a Programmer & I am a Backend Developer & Frontend Developer.
                     </p>
-                    <a href="https://drive.google.com/file/d/1_a5OWWagj9yGbUplZjKTBOicnW2rb9eT/view"
+                    <a href="https://drive.google.com/file/d/12j3pKafAFE42aA9KYj3j64pXWlr9hOWM/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-5 sm:mt-7 text-white py-2 px-3 text-sm sm:text-lg md:py-2 md:px-4 
