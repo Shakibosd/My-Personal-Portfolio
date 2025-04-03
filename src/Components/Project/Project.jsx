@@ -6,8 +6,8 @@ const projects = [
         image: projectImg1,
         title: "Flower Seal",
         main: "This is a flower seal e-commerce website",
-        demoLink: "https://flower-seal.netlify.app/",
-        frontend: "https://github.com/Shakibosd/drf_final_exam_frontEnd",
+        demoLink: "https://flower-sell.netlify.app/",
+        frontend: "https://github.com/Shakibosd/drf_final_exam_FrontEnd_Part_ReactJs",
         backend: "https://github.com/Shakibosd/DRF-Final-Exam-BackEnd",
     },
     // {
