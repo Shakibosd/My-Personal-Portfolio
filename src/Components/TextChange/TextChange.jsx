@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const texts = ["Hi, I'm Nazmus Shakib", "Hi, I'm Nazmus Shakib", "Hi, I'm Nazmus Shakib"];
+const texts = ["Hi, I'm Najmus Shakib", "Hi, I'm Najmus Shakib", "Hi, I'm Najmus Shakib"];
 
 const TextChange = () => {
     const [currentText, setCurrentText] = useState("");

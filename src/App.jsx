@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
-    <div style={{background:'linear-gradient(90deg, #171d32, #1e3c72)'}} className="h-auto w-full overflow-hidden">
+    <div className="bg-gradient-to-b from-gray-800 to-gray-900 h-auto w-full overflow-hidden">
       <Navbar />
       <Home />
       <About />
