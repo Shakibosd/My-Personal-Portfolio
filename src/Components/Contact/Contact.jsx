@@ -121,7 +121,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://shorturl.at/VP1g9"
+                href="https://www.google.ca/maps/place/Notun+Bridge+Point,+Shaestagonj,+Hobigonj/@24.2687434,91.4714239,16.83z/data=!4m15!1m8!3m7!1s0x37515c4522a33541:0xaf92bcdf59019563!2sShaistaganj!3b1!8m2!3d24.2766967!4d91.4555525!16s%2Fm%2F09gllxz!3m5!1s0x37515c4e01c4206b:0x5e4b1ca47994326!8m2!3d24.2675395!4d91.4771063!16s%2Fg%2F11bzs3p8yb?entry=ttu&g_ep=EgoyMDI1MDQyMC4wIKXMDSoASAFQAw%3D%3D"
                 className="text-gray-300 hover:text-white transition-colors duration-300 text-lg"
               >
                 Shayestaganj, Habiganj, Sylhet, Bangladesh
