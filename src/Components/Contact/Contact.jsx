@@ -19,7 +19,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const res = await fetch(
-        `https://flower-seal-backend.vercel.app/flowers/contact/`,
+        `https://flower-seal-backend.vercel.app/api/v1/flower/contact/`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
