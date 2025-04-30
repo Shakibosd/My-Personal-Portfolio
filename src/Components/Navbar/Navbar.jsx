@@ -7,6 +7,7 @@ import {
   FaHome,
   FaProjectDiagram,
   FaUser,
+  FaRegCopyright
 } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -33,7 +34,8 @@ const Navbar = () => {
     { name: "Skills", href: "#skills", icon: <FaCode /> },
     { name: "Projects", href: "#projects", icon: <FaProjectDiagram /> },
     { name: "Contact", href: "#contact", icon: <FaEnvelope /> },
-    { name: "Footer", href: "#footer", icon: <FaEnvelope /> },
+    { name: "Footer", href: "#footer", icon: <FaRegCopyright /> },  // কপিরাইট আইকন
+    
   ];
 
   return (
