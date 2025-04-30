@@ -34,7 +34,7 @@ const Navbar = () => {
     { name: "Skills", href: "#skills", icon: <FaCode /> },
     { name: "Projects", href: "#projects", icon: <FaProjectDiagram /> },
     { name: "Contact", href: "#contact", icon: <FaEnvelope /> },
-    { name: "Footer", href: "#footer", icon: <FaRegCopyright /> },  // কপিরাইট আইকন
+    { name: "Footer", href: "#footer", icon: <FaRegCopyright /> },  
     
   ];
 
