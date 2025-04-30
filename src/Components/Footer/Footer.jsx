@@ -60,7 +60,7 @@ const Footer = () => {
     { name: "Home", href: "#home", icon: <FaUser /> },
     { name: "About", href: "#about", icon: <FaUser /> },
     { name: "Skills", href: "#skills", icon: <FaCode /> },
-    { name: "Projects", href: "#project", icon: <FaLink /> },
+    { name: "Projects", href: "#projects", icon: <FaLink /> },
     { name: "Contact", href: "#contact", icon: <FaUser /> },
   ];
 

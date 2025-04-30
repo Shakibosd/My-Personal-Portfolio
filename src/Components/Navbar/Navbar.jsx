@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "/", icon: <FaHome /> },
+    { name: "Home", href: "#home", icon: <FaHome /> },
     { name: "About", href: "#about", icon: <FaUser /> },
     { name: "Skills", href: "#skills", icon: <FaCode /> },
     { name: "Projects", href: "#projects", icon: <FaProjectDiagram /> },
